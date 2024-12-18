@@ -215,3 +215,20 @@ div .button-2 {
     /* Change the Cursor Pointer*/
     border: 2px solid white;
 }
+
+
+/* FOOTER */
+
+.footer {
+    background-color:#1F2937 ;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+}
