@@ -78,6 +78,8 @@ ul {
     border-radius: 5px;
     color: white;
     padding: 5px 20px 5px 20px; /*Top - Right - Bottom - Left*/
+    cursor: pointer; /* Change the Cursor Pointer*/
+    
 }
 
 .section-1 img {
@@ -126,6 +128,7 @@ ul {
     font-size: 18px;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 .card img {
@@ -135,5 +138,36 @@ ul {
     border: 3px solid #3882F6;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* Section 3 */
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.quote-text {
+    font-size: 30px;   
+    font-style:italic;
+    font-weight: lighter;
+    
+    color: #1F2937;
+}
+
+
+.author {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px 20px 5px 5px;
 }
 
