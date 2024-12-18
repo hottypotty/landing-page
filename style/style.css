@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
 
+
 }
 
 /* HEADER */
@@ -84,3 +85,55 @@ ul {
     padding: 30px 50px 30px 50px;
     width: 300px;
 }
+
+
+
+
+/* Section 2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: nowrap;
+}
+
+.information{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+
+.cards-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-secondary-text{
+    color: #5e6166;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+   
+    width: 100px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
