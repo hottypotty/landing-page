@@ -24,9 +24,8 @@ body {
     flex-wrap: wrap;
 }
 
-.header-link {
-    
-}
+
+
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -90,13 +89,24 @@ ul {
 
 }
 
-.section-1 img {
-    display: flex;
+
+/* .section-1 img {
+   
+    flex: 1;
     padding: 30px 50px 30px 50px;
+    max-width: 100%;
+    height: auto;
+} */
+
+
+.card-main-image img {
+
     width: 300px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    
 }
-
-
 
 
 /* Section 2 */
@@ -140,7 +150,7 @@ ul {
     padding: 5px;
     text-align: center;
     cursor: pointer;
-    
+
 
 
 }
