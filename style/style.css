@@ -21,8 +21,12 @@ body {
     align-items: center;
     padding-left: 50px;
     /* justify-content: center; */
+    flex-wrap: wrap;
 }
 
+.header-link {
+    
+}
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -43,6 +47,7 @@ ul {
     display: flex;
     gap: 15px;
     padding-right: 50px;
+    /* flex-wrap: wrap; */
 }
 
 
@@ -55,6 +60,7 @@ ul {
     padding-left: 50px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .section-1-main-text {
@@ -101,7 +107,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    flex-wrap: nowrap;
+
 }
 
 .information {
@@ -113,8 +119,9 @@ ul {
 
 .cards {
     display: flex;
-    gap: 20px;
-
+    gap: 5px;
+    flex-wrap: wrap;
+    /*Move to Next Line,if the screen is adjusted ,Flex-wrap */
 
 }
 
@@ -124,14 +131,18 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .section-2-secondary-text {
     color: #5e6166;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 5px;
     text-align: center;
     cursor: pointer;
+    
+
+
 }
 
 .card img {
@@ -220,7 +231,7 @@ div .button-2 {
 /* FOOTER */
 
 .footer {
-    background-color:#1F2937 ;
+    background-color: #1F2937;
     /* padding: 50px; */
     display: flex;
     justify-content: center;

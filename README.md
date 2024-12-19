@@ -1,4 +1,4 @@
 # landing-page
 Landing Page Project
 
-The project was created on the year 2024
+The project was created in the year 2024.
