@@ -103,7 +103,7 @@ ul {
 
     width: 300px;
     height: auto;
-    padding: 10px;
+    padding-bottom: 20px;
     cursor: pointer;
     
 }
@@ -212,6 +212,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 
@@ -230,6 +231,7 @@ div .button-2 {
     border-style: none;
     border-radius: 5px;
     color: white;
+    margin: 10px;
     padding: 5px 20px 5px 20px;
     /*Top - Right - Bottom - Left*/
     cursor: pointer;
